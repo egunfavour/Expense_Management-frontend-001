@@ -167,10 +167,6 @@ function HomePage() {
                       <li style={{ float: "left", fontWeight: "bold" }}>
                         {item.text}
                       </li>
-                      
-                      <li style = {{float : "right"}}>
-                          <button>UPDATE</button>
-                      </li>
                       <li style = {{float : "right"}}>
                         <button onClick={()=>{handleDelete(item.key, item.amount)}}>DELETE</button>
                       </li>
